@@ -1,0 +1,10 @@
+# Arquivos do banco de simulação mock
+*.h5
+
+# Python comuns
+__pycache__/
+*.pyc
+.env
+.venv/
+env/
+venv/
