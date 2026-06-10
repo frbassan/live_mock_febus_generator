@@ -28,7 +28,7 @@ with col2:
         st.session_state.running = False
         st.rerun()
 
-update_interval = 0.1  # 1s
+update_interval = 1  # 1s
 traces_para_pico = int(10 / update_interval) if update_interval > 0 else 10
 num_points = 1000
 distances = np.linspace(0, 1000, num_points)
